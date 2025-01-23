@@ -7,6 +7,7 @@
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.6.0",
     "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.7",
     "concurrently": "^8.0.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
@@ -33,11 +34,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
+    "url": "git+https://github.com/theajeetgupta/react-tailwind-css-starter-pack.git"
   },
-  "author": "Pranay Gupta",
+  "author": "Ajeet Gupta",
   "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
+    "url": "https://github.com/theajeetgupta/react-tailwind-css-starter-pack/issues"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -27,7 +27,7 @@ function Home() {
             
                 const result = await getCatalogaPageData(categoryID,dispatch);
                 setCatalogPageData(result);
-                // console.log("page data",CatalogPageData);
+                 console.log("page data",result);
             
         }
         if (categoryID) {
@@ -99,25 +99,11 @@ function Home() {
                     }
                 }
 
-                codeblock={`<<!DOCTYPE html>\n<html>\n<head><title>Example</title>\n</head>\n<body>\n<h1><ahref="/">Header</a>\n</h1>\n<nav><ahref="one/">One</a><ahref="two/">Two</a><ahref="three/">Three</a>\n</nav>`}
+                codeblock={`<<!DOCTYPE html>\n<html>\n<head><title>Example</title>\n</head>\n<body>\n<h1><a href="/">Header</a>\n</h1>\n<nav><a href="one/">One</a><a href="two/">Two</a><a href="three/">Three</a>\n</nav>`}
                 codeColor={"white"}
                 backgroudGradient={"grad"}
             />
         </div>
-        <div className=' mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
-        <h2 className='section_heading mb-6 md:text-3xl text-xl'>
-           Most Popular Courses
-        </h2>
-        <CourseSlider Courses={CatalogPageData?.selectedCourses}/>
-      </div>       
-        <div className=' mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
-        <h2 className='section_heading mb-6 md:text-3xl text-xl'>
-           Students are learning
-        </h2>
-        <CourseSlider Courses={CatalogPageData?.differentCourses}/>
-      </div>       
-
-
                 {/* Code Section 2 */}
         <div>
             <CodeBlocks 
@@ -195,7 +181,7 @@ function Home() {
 
                     <div className='flex flex-col gap-10 w-[40%] items-start'>
                     <div className='text-[16px]'>
-                    The modern StudyNotion is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
+                    The modern StudyArc is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
                     </div>
                     <CTAButton active={true} linkto={"/signup"}>
                         <div>

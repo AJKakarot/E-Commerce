@@ -13,15 +13,15 @@ const ContactUs = () => {
                     <h1 className="text-lg font-semibold text-richblack-5">Chat on us</h1>
                     </div>
                     <p className='font-medium'>Our friendly team is here to help.</p>
-                    <p className='font-semibold'>info@studynotion.com</p>
+                    <p className='font-semibold'>gajeet031@gmail.com</p>
                 </div>
                 <div className="flex flex-col gap-[2px] p-3 text-sm text-richblack-200">
                     <div className='flex flex-row items-center gap-3'>
                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z"></path></svg>
                     <h1 className="text-lg font-semibold text-richblack-5">Visit us</h1>
                     </div>
-                    <p className='font-medium'>Come and say hello at our office HQ.</p>
-                    <p className='font-semibold'>Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</p>
+                    <p className='font-medium'>Come and say hello at our campus Dr.Aitd.</p>
+                    <p className='font-semibold'>Sharda Nagar 1st Block 1st Cross, GuruDev, Kanpur-208025</p>
                 </div>
                 <div className="flex flex-col gap-[2px] p-3 text-sm text-richblack-200">
                     <div className='flex flex-row items-center gap-3'>
@@ -29,7 +29,7 @@ const ContactUs = () => {
                     <h1 className="text-lg font-semibold text-richblack-5">Call us</h1>
                 </div>
                 <p className='font-medium'>Mon - Fri From 8am to 5pm</p>
-                <p className='font-semibold'>+91 6366 000 666</p>
+                <p className='font-semibold'>+91 8840713812</p>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 const userRoutes = require("./routes/User");
-const paymentRoutes = require("./routes/Payments");
+ const paymentRoutes = require("./routes/Payments");
 const profileRoutes = require("./routes/Profile");
 const CourseRoutes = require("./routes/Course");
 
@@ -12,7 +12,7 @@ const cookieParser = require("cookie-parser");
 
 const cors = require("cors");
 const fileUpload = require("express-fileupload");
-const { cloudnairyconnect } = require("./config/cloudinary");
+const { cloudinaryConnect } = require("./config/cloudinary.js");
 
 const dotenv = require("dotenv");
 dotenv.config();
@@ -42,7 +42,7 @@ app.use(
   })
 );
 
-cloudnairyconnect();
+cloudinaryConnect();
 
 app.use("/api/v1/auth", userRoutes);
 
