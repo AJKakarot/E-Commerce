@@ -1,33 +1,54 @@
-# Study Notion
+# 🎓 StudyNotion – An EdTech Platform (MERN Stack)
 
-StudyArc is an ED Tech (Education Technology) web application developed using the MERN stack.
+StudyNotion is a full-stack EdTech platform built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**.  
+It enables users to learn, teach, and manage courses efficiently with features like authentication, dashboards, progress tracking, and payment integration.
 
-## Note
+---
 
-This project is intended as a learning tool and can be used as a sample project for educational or personal projects.
+## ✅ Features
 
+### 👥 User Authentication
+- Secure login and signup using **JWT (JSON Web Tokens)**.
+- Supports **Student, Instructor, and Admin roles**.
+- Profile management for all users.
 
-***
-## Features
+### 📚 Courses & Content Management
+- Instructors can **create, edit, and manage courses and lectures**.
+- Students can **enroll in courses and access learning content**.
+- Admin must **create course categories** before instructors upload courses.
 
-* User Authentication: StudyArc provides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their 
-  profiles with ease.
-  
-* Courses and Lessons: Instructors can create and edit created courses. Students can enroll in courses, access course materials, and track their progress.
-* Progress Tracking: StudyArc allows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and 
-  assignments, and overall course progress.
-  
-* Payment Integration: StudyArc integrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services 
-  using various payment methods supported by Razorpay.
-  
-* Search Functionality: Users can easily search for courses, lessons, and resources using the built-in search feature. This makes it convenient to find relevant 
-  content quickly.
-  
-* Instructor Dashboard: Instructors have access to a comprehensive dashboard to view information about their courses, students, and income. The 
- dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in 
- each course, track course performance, and view their income generated from course sales.
+### 📊 Progress Tracking
+- Tracks **completed lessons, quiz scores, and overall progress** for each enrolled course.
 
-  
+### 💳 Payment Integration
+- Integrated with **Razorpay** for secure course purchases.
+
+### 🔍 Search Functionality
+- Search courses, lessons, or topics easily.
+
+### 📈 Instructor Dashboard
+- Instructors can view **total students, course performance, and income reports** with clear visualizations.
+
+---
+
+## ⚠ Important Instructions
+
+- The **backend is located in the `server/` folder**.
+- Before adding courses, **create categories** from the Admin Panel.
+- To make an account an Admin:
+  1. Sign up as a Student or Instructor.
+  2. Go to your database → `users` collection.
+  3. Change `accountType` to `"Admin"` manually.
+
+---
+
+## 📦 Installation Guide
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/himanshu8443/Study-Notion-master.git
+cd Study-Notion-master
+
 ***
 ## Screenshots
 ![Screenshot 2023-07-25 210844](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/0cba8d5b-6a47-4721-ac9f-4279107c257e)
@@ -77,3 +98,4 @@ This project is intended as a learning tool and can be used as a sample project 
 5. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
 
 The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+# E-Commerce
