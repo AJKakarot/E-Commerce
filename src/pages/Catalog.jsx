@@ -25,8 +25,8 @@ const Catalog = () => {
         const category_id= result.data.data.filter((item)=>item.name=== Catalog.catalog)[0]._id;
         setcategoryID(category_id);      
         setDesc(result.data.data.filter((item)=>item.name=== Catalog.catalog)[0]);
-        // console.log("Desc",Desc);  
-        // console.log(category_id);
+        console.log("Desc",Desc);
+        console.log(category_id);
     } catch (error) {
         console.log("could not fetch sublinks");
         console.log(error);

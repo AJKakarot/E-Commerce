@@ -54,7 +54,7 @@ export async function buyCourse (token, courses, userDetails, navigate, dispatch
         currency: orderResponse.data.currency,
         amount: orderResponse.data.amount.toString(),
         order_id: orderResponse.data.orderId,
-        name: "StudyArc",
+        name: "StudyNotion",
         description: "Thank you for purchasing the course",
         image: rzplogo,
         prefill: {

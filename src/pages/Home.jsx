@@ -12,7 +12,7 @@ import ExploreMore from '../Components/core/HomePage/ExploreMore';
 import { useDispatch } from 'react-redux';
 import { setProgress } from "../slices/loadingBarSlice"
 import { getCatalogaPageData } from '../services/operations/pageAndComponentData';
-import CourseSlider from '../Components/core/Catalog/CourseSlider';
+import CourseSlider from '../Components/core/Catalog/CourseSlider';     
 import { useEffect } from 'react';
 import { useState } from 'react';
 import RatingSlider from '../Components/core/Ratings/RatingSlider';
@@ -21,7 +21,7 @@ import RatingSlider from '../Components/core/Ratings/RatingSlider';
 function Home() {
     const [CatalogPageData, setCatalogPageData] = useState(null);
     const categoryID = "6475dbeb49dcc886b5698441";
-
+   const dispatch = useDispatch();
     useEffect(() => {
         const fetchCatalogPageData = async () => {
             
@@ -33,8 +33,8 @@ function Home() {
         if (categoryID) {
             fetchCatalogPageData();
         }
-    }, [categoryID])
-    const dispatch = useDispatch();
+    }, [categoryID,dispatch])
+ 
   return (
     <div>
         <div className=' mx-auto relative flex flex-col w-11/12 items-center justify-between text-white '>
@@ -152,7 +152,7 @@ function Home() {
                 <div className='w-11/12 max-w-maxContent flex flex-col items-center justify-between gap-5 mx-auto'>
                     <div className='h-[150px]'></div>
                     <div className='flex flex-row gap-7 text-white '>
-                        <CTAButton active={true} linkto={"/catalog/Web Developement"}>
+                        <CTAButton active={true} linkto={"/signup"}>
                             <div className='flex items-center gap-3' >
                                 Explore Full Catalog
                                 <FaArrowRight />
@@ -181,7 +181,7 @@ function Home() {
 
                     <div className='flex flex-col gap-10 w-[40%] items-start'>
                     <div className='text-[16px]'>
-                    The modern StudyArc is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
+                    The modern StudyNotion is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
                     </div>
                     <CTAButton active={true} linkto={"/signup"}>
                         <div>

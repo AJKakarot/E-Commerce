@@ -1,7 +1,7 @@
 {
-    "name": "StudyArc",
+    "name": "StudyNotion",
     "id": "/",
-    "short_name": "StudyArc",
+    "short_name": "StudyNotion",
     "description": "An Ed Tech Web App for Students and Instructors",
     "start_url": "/",
     "display": "standalone",

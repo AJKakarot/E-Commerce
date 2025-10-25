@@ -59,7 +59,7 @@ exports.categoryPageDetails = async (req, res) => {
 
 		
 		if (!selectedCategory) {
-			console.log("Category not found.");
+			
 			return res
 				.status(404)
 				.json({ success: false, message: "Category not found" });
@@ -115,14 +115,14 @@ exports.addCourseToCategory = async (req, res) => {
 		if (!category) {
 			return res.status(404).json({
 				success: false,
-				message: "Category not found",
+				message: "category not found",
 			});
 		}
 		const course = await Course.findById(courseId);
 		if (!course) {
 			return res.status(404).json({
 				success: false,
-				message: "Course not found",
+				message: "course not found",
 			});
 		}
 		if(category.courses.includes(courseId)){
