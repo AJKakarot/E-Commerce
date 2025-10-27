@@ -1,5 +1,7 @@
 # 🛒 E-Commerce Web Application
 
+🚀 **Live Demo:** [https://e-commerce-2-t22u.onrender.com](https://e-commerce-2-t22u.onrender.com)
+
 A full-stack **MERN E-Commerce Application** built with **MongoDB, Express, React, and Node.js**, featuring secure authentication, product management, cart system, and seamless checkout — all in one modern web app!
 
 ---
