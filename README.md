@@ -40,27 +40,7 @@ It enables users to learn, teach, and manage courses efficiently with features l
   2. Go to your database → `users` collection.
   3. Change `accountType` to `"Admin"` manually.
 
----
-
-## 📦 Installation Guide
-
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/himanshu8443/Study-Notion-master.git
-cd Study-Notion-master
-
-***
-## Screenshots
-![Screenshot 2023-07-25 210844](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/0cba8d5b-6a47-4721-ac9f-4279107c257e)
-![Screenshot 2023-07-25 211309](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/62c33b56-0bd5-4330-b1db-d41b80d9f69f)
-<details>
-  <summary>More screenshots</summary>
-  
-![Screenshot 2023-07-25 211451](https://github.com/AJKakarot/E-Commerce/assets/99420590/63f7163d-a74a-4e78-bc78-6b96b06073f9)
-![image](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/59d1d8c2-2824-45bb-a2f7-6f5dc234895c)
-</details>
-
-***
+----
 
 ## Important
 * Backend is  in the server folder.
@@ -70,14 +50,14 @@ cd Study-Notion-master
 
 ## Installation
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/himanshu8443/Study-Notion-master.git
-    ```
+## 📦 Installation Guide
+```sh
 
+### 1️⃣1.Clone the Repository
+```sh
+git clone https://github.com/AJKakarot/E-Commerce.git
+cd E-Commerce
 2. Install the required packages.
-    ```sh
-    cd Study-Notion-master
     npm install
     
     cd server
