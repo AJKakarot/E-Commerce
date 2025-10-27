@@ -42,6 +42,21 @@ It enables users to learn, teach, and manage courses efficiently with features l
 
 ----
 
+***
+## Screenshots
+https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.07%E2%80%AFAM.png?raw=true
+
+https://github.com/AJKakarot/E-Commerce/blob/d54b9279a2c8b7d454e685d94c6c210db3ea03ed/screenshots/Screenshot%202025-10-27%20at%205.55.16%E2%80%AFAM.png
+https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.55.20%E2%80%AFAM.png?raw=true
+  <summary>More screenshots</summary>
+  https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.55.35%E2%80%AFAM.png?raw=true
+https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.20%E2%80%AFAM.png?raw=true
+https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.25%E2%80%AFAM.png?raw=true
+
+
+***
+
+
 ## Important
 * Backend is  in the server folder.
 * Before uploading courses and anything create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
