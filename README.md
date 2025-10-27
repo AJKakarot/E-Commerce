@@ -44,14 +44,19 @@ It enables users to learn, teach, and manage courses efficiently with features l
 
 ***
 ## Screenshots
-https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.07%E2%80%AFAM.png?raw=true
 
-https://github.com/AJKakarot/E-Commerce/blob/d54b9279a2c8b7d454e685d94c6c210db3ea03ed/screenshots/Screenshot%202025-10-27%20at%205.55.16%E2%80%AFAM.png
-https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.55.20%E2%80%AFAM.png?raw=true
-  <summary>More screenshots</summary>
-  https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.55.35%E2%80%AFAM.png?raw=true
-https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.20%E2%80%AFAM.png?raw=true
-https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.25%E2%80%AFAM.png?raw=true
+![Screenshot 1](https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.07%E2%80%AFAM.png?raw=true)
+![Screenshot 2](https://github.com/AJKakarot/E-Commerce/blob/d54b9279a2c8b7d454e685d94c6c210db3ea03ed/screenshots/Screenshot%202025-10-27%20at%205.55.16%E2%80%AFAM.png?raw=true)
+![Screenshot 3](https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.55.20%E2%80%AFAM.png?raw=true)
+
+<details>
+<summary>More screenshots</summary>
+
+![Screenshot 4](https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.55.35%E2%80%AFAM.png?raw=true)
+![Screenshot 5](https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.20%E2%80%AFAM.png?raw=true)
+![Screenshot 6](https://github.com/AJKakarot/E-Commerce/blob/main/screenshots/Screenshot%202025-10-27%20at%205.56.25%E2%80%AFAM.png?raw=true)
+
+</details>
 
 
 ***
