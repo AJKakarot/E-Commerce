@@ -3,6 +3,7 @@
 StudyNotion is a full-stack EdTech platform built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**.  
 It enables users to learn, teach, and manage courses efficiently with features like authentication, dashboards, progress tracking, and payment integration.
 
+LIVE DEMO:[https://e-commerce-2-t22u.onrender.com]
 ---
 
 ## ✅ Features
