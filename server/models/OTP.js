@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-c
 // OTP Schema
 const OTPSchema = new mongoose.Schema({
     email: {
