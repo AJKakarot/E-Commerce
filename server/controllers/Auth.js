@@ -213,10 +213,7 @@ exports.sendotp = async (req, res) => {
 		}
 		const otpPayload = { email, otp };
 		const otpBody = await OTP.create(otpPayload);
-		
-		await mailSender(email, "Your OTP Code", emailTemplate(otp));
-
-    console.log("OTP saved & email sent:", otpBody);
+		console.log("OTP Body", otpBody);
 
 		res.status(200).json({
 			success: true,
