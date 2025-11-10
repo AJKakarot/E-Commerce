@@ -4,15 +4,15 @@ require("dotenv").config();
 const mailSender = async (email, subject, htmlBody) => {
   try {
     const transporter = nodemailer.createTransport({
-      host: process.env.MAIL_HOST,
-      port: parseInt(process.env.MAIL_PORT),
-      secure: true, // true for 465, false for 587
+      host: process.env.MAIL_HOST,         // smtp.gmail.com
+      port: parseInt(process.env.MAIL_PORT), // 587
+      secure: false,                       // ❌ must be false for STARTTLS
       auth: {
         user: process.env.MAIL_USER,
         pass: process.env.MAIL_PASS,
       },
       tls: {
-        rejectUnauthorized: false, // necessary on some cloud platforms
+        rejectUnauthorized: false,
       },
     });
 
@@ -24,11 +24,11 @@ const mailSender = async (email, subject, htmlBody) => {
     };
 
     const info = await transporter.sendMail(mailOptions);
-    console.log("Email sent:", info.messageId);
+    console.log("✅ Email sent:", info.response);
     return info;
   } catch (err) {
-    console.error("Error sending email:", err.message);
-    throw err; // propagate to controller
+    console.error("❌ Error sending email:", err);
+    throw err;
   }
 };
 
