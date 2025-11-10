@@ -3,21 +3,22 @@ require("dotenv").config();
 
 const mailSender = async (email, subject, htmlBody) => {
   try {
+    // Create transporter using SendGrid SMTP
     const transporter = nodemailer.createTransport({
-      host: process.env.MAIL_HOST,         // smtp.gmail.com
-      port: parseInt(process.env.MAIL_PORT), // 587
-      secure: false,                       // ❌ must be false for STARTTLS
+      host: process.env.MAIL_HOST,             // smtp.sendgrid.net
+      port: parseInt(process.env.MAIL_PORT),   // 587
+      secure: false,                           // false for STARTTLS
       auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
+        user: process.env.MAIL_USER,           // literally "apikey"
+        pass: process.env.MAIL_PASS,           // your SendGrid API key
       },
       tls: {
-        rejectUnauthorized: false,
+        rejectUnauthorized: false,             // optional, avoids TLS issues on some cloud hosts
       },
     });
 
     const mailOptions = {
-      from: `"StudyNotion" <${process.env.MAIL_USER}>`,
+      from: `"StudyNotion" <gajeet031@gmail.com>`, // visible sender email
       to: email,
       subject: subject,
       html: htmlBody,
